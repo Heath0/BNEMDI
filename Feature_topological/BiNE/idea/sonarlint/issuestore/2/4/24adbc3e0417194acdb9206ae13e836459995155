@@ -1,0 +1,12 @@
+
+5python:S3626"Remove this redundant return.(ÙãŞŸ
+ppython:S117"TRename this parameter "SaveList" to match the regular expression ^[_a-z][a-z0-9_]*$.(µˆœÓùÿÿÿÿ
+ppython:S117"TRename this parameter "fileName" to match the regular expression ^[_a-z][a-z0-9_]*$.(µˆœÓùÿÿÿÿ
+lpython:S1542"ORename function "ReadMyCsv" to match the regular expression ^[a-z_][a-z0-9_]*$.(µˆœÓùÿÿÿÿ
+5python:S3626"Remove this redundant return.(ÙãŞŸ
+ppython:S117"TRename this parameter "SaveList" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÒÕìÆıÿÿÿÿ
+ppython:S117"TRename this parameter "fileName" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÒÕìÆıÿÿÿÿ
+mpython:S1542"PRename function "ReadMyCsv2" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÒÕìÆıÿÿÿÿ
+5python:S3626"Remove this redundant return.(ÙãŞŸ
+ppython:S117"TRename this parameter "fileName" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ü¬ïØùÿÿÿÿ
+kpython:S1542"NRename function "StorFile" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ü¬ïØùÿÿÿÿ
