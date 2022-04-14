@@ -5,8 +5,8 @@ from itertools import product
 #提取核苷酸类型（排列组合）
 def nucleotide_type(k):
     z = []
-    for i in product('ACGU', repeat = k):  #笛卡尔积（有放回抽样排列）
-        z.append(''.join(i))  #把('A,A,A')转变成（AAA）形式
+    for i in product('ACGU', repeat = k):
+        z.append(''.join(i))
     return z
 
 # 碱基对数量统计
