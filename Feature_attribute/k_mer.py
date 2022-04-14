@@ -2,14 +2,12 @@ import pandas as pd
 from functools import reduce
 from itertools import product
 
-#提取核苷酸类型（排列组合）
 def nucleotide_type(k):
     z = []
     for i in product('ACGU', repeat = k):
         z.append(''.join(i))
     return z
 
-# 碱基对数量统计
 def char_count(sequence,num,x):
     n = 0
 
@@ -24,7 +22,6 @@ def feature_336d(seq,k):
         list.append(char_count(seq,i,k))
     return (list)
 
-# 逐行调用特征编码
 def Sequence_replacement(sequ,k):
     sequen = [None]*len(sequ)
     for i in range(len(sequ)):
